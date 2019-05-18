@@ -229,6 +229,162 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/18/How-I-built-this-blog/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="鸟厂猴子">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鸟厂猴子">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/05/18/How-I-built-this-blog/" itemprop="url">How I built this blog</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-05-18T10:47:09-07:00">
+                2019-05-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>In this page you can find all the resources I used to build my blog, plus some tips to save you from uncessary detours.</p>
+<p>##How to set up your first blog in one hour</p>
+<h3 id="My-system-environment"><a href="#My-system-environment" class="headerlink" title="My system environment"></a>My system environment</h3><hr>
+<p><strong>NOTE</strong></p>
+<p>Make sure you have the similar environment as mine to go on. Otherwise you’d better turn to other tutorials to fit your need, say if you are using windows :)</p>
+<hr>
+<ul>
+<li>Mac, with following already set up<ul>
+<li>Git </li>
+<li>Github</li>
+</ul>
+</li>
+</ul>
+<h3 id="Tutorials"><a href="#Tutorials" class="headerlink" title="Tutorials"></a>Tutorials</h3><p>I basically followed these two tutorials, one in Chinese and one in English. It’s easy and straightforwad, just do as told step by step and you will be good. In case you got blocked, take a look at the tips below which might save you a lot of time.</p>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/34654952" target="_blank" rel="noopener">Mac+Hexo+GitHub搭建博客教程</a></li>
+<li><a href="https://gist.github.com/btfak/18938572f5df000ebe06fbd1872e4e39#how-to-use-hexo-and-deploy-to-github-pages" target="_blank" rel="noopener">How to use Hexo and deploy to GitHub Pages</a></li>
+<li><a href="https://hexo.io/docs/" target="_blank" rel="noopener">Hexo official website</a></li>
+</ul>
+<hr>
+<p><strong>TIPS</strong></p>
+<p>Here are some blocks I was confronted when following the tutorials, hope it can help.</p>
+<ul>
+<li>Unhandled rejection Error: EISDIR: illegal operation on a directory<ul>
+<li><strong>Solution</strong>: downgrade npm to 6.4.1 (<a href="https://npm.community/t/unhandled-rejection-error-eisdir-illegal-operation-on-a-directory/5003" target="_blank" rel="noopener">reference</a>)</li>
+<li>If you saw same error when doing downgrade, you can download node directly from <a href="https://nodejs.org/en/" target="_blank" rel="noopener">here</a>, choose LTS version.</li>
+</ul>
+</li>
+<li><p>Mac install hexo use sudo but still permission denied</p>
+<ul>
+<li><p><strong>Solution</strong>: never run <code>sudo npm install -g hexo-cli</code>, run these two commands instead (<a href="https://github.com/hexojs/hexo/issues/2785" target="_blank" rel="noopener">reference</a>): </p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo chown -R &apos;whoam&apos; /usr/local/lib/node_modules</span><br><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/17/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -390,7 +546,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
